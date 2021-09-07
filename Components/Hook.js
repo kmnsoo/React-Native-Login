@@ -52,9 +52,9 @@ const Hook: () => React$Node = () => {
 
   return (
     <View style = {{flex:1, alignItems:'center', justifyContent: 'center'}}>
-      <Text>안녕하세요 Hook Test입니다.</Text>
-      <Button title ={'이름변경'} onPress={()=> setName('MinSoo')} />
-      <Text>반갑습니다 {name}님</Text>
+      <Text>ㅎㅇ  Hook Test임.</Text>
+      <Button title ={'이름변경'} onPress={()=> setName('공주')} />
+      <Text>ㅎㅇㅎㅇ {name}님</Text>
       <FlatList
         data={users}
         renderItem={({item}) => <Text>{item.name}</Text>}
